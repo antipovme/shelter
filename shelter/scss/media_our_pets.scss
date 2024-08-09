@@ -1,0 +1,139 @@
+@media (max-width: 4096px) {
+    .hamburger {
+        top: -400%;
+    }
+}
+@media (max-width: 1023px) {
+    .hamburger {
+        top: -400%;
+    }
+    footer {
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 66px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .hamburger {
+        top: -400%;
+    }
+    header {
+        .container-header {
+            padding: 30px 30px;
+        }
+    }
+    .pets {
+        padding: 60px 30px 70px 30px;
+        h3 {
+            padding-top: 23px;
+        }
+        .pets-slider {
+            padding-top: 20px;
+            #scarlet, #freddie {
+                display: none;
+            }
+        }
+        .pets-cards {
+            padding: 0;
+            gap: 30px 40px;
+            justify-content: center;
+            .pets-cards-item {
+                margin-bottom: 0;
+            }
+        }
+        .pets-slider-btn {
+            margin-top: 40px;
+            margin-bottom: 3px;
+        }
+    }
+    footer {
+        #Footer {
+            padding-top: 30px;
+        }
+        #foter-content {
+            gap: 66px;
+        }
+        #footer-wrapper {
+            gap: 60px;
+            width: auto;
+            #contacts, #locations {
+                padding-top: 0px;
+            }
+            .locations {
+                padding-top: 0px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    header {
+        .container-header {
+            padding: 30px 20px 30px 20px;
+        }
+        .hamburger {
+            top: 50px;
+        }
+        .menu-item {
+            position: absolute;
+            top: -100%;
+        }
+    }
+    .pets {
+        padding: 42px 10px 42px 10px;
+    }
+    footer {
+        padding: 0px 10px 0 10px;
+        .footer-wrapper {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .pets {
+        h3 {
+            padding: 0;
+            font-size: 25px;
+            line-height: 2rem;
+        }
+        .pets-slider {
+            padding-top: 40px;
+            #charly, #timmy, #sophia {
+                display: none;
+            }
+            .pets-slider-btn {
+                gap: 10px;
+            }
+            .pets-cards-item {
+                padding-bottom: 27px;
+            }
+        }
+    }
+    footer {
+        .footer-content {
+            gap: 41px;
+        }
+        #footer-wrapper {
+            gap: 41px;
+            justify-content: center;
+            .contacts {
+                width: 250px;
+            }
+            .locations {
+                gap: 39px;
+                .locations {
+                    width: 294px;
+                }
+            }
+        }
+        .footer-img {
+            width: 260px;
+            height: 269px;
+        }
+        .h3-title-footer {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+}

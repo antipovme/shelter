@@ -1,0 +1,6 @@
+@mixin bg-gradient {
+    background: url('../img/bg/noise_transparent.png'),radial-gradient(234.05% 111.80% at 0% 0%,rgb(91, 72, 58),rgb(38, 36, 37) 100%), rgb(33, 31, 32);
+}
+@mixin bg-gradient-footer {
+    background: url('../img/bg/noise_transparent.png'),linear-gradient(90deg, #513d2f 39%, #211f20 60%);
+}

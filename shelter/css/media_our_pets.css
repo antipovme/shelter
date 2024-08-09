@@ -1,0 +1,127 @@
+@media (max-width: 4096px) {
+  .hamburger {
+    top: -400%;
+  }
+}
+@media (max-width: 1023px) {
+  .hamburger {
+    top: -400%;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+  }
+}
+@media (max-width: 768px) {
+  .hamburger {
+    top: -400%;
+  }
+  header .container-header {
+    padding: 30px 30px;
+  }
+  .pets {
+    padding: 60px 30px 70px 30px;
+  }
+  .pets h3 {
+    padding-top: 23px;
+  }
+  .pets .pets-slider {
+    padding-top: 20px;
+  }
+  .pets .pets-slider #scarlet, .pets .pets-slider #freddie {
+    display: none;
+  }
+  .pets .pets-cards {
+    padding: 0;
+    gap: 30px 40px;
+    justify-content: center;
+  }
+  .pets .pets-cards .pets-cards-item {
+    margin-bottom: 0;
+  }
+  .pets .pets-slider-btn {
+    margin-top: 40px;
+    margin-bottom: 3px;
+  }
+  footer #Footer {
+    padding-top: 30px;
+  }
+  footer #foter-content {
+    gap: 66px;
+  }
+  footer #footer-wrapper {
+    gap: 60px;
+    width: auto;
+  }
+  footer #footer-wrapper #contacts, footer #footer-wrapper #locations {
+    padding-top: 0px;
+  }
+  footer #footer-wrapper .locations {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  header .container-header {
+    padding: 30px 20px 30px 20px;
+  }
+  header .hamburger {
+    top: 50px;
+  }
+  header .menu-item {
+    position: absolute;
+    top: -100%;
+  }
+  .pets {
+    padding: 42px 10px 42px 10px;
+  }
+  footer {
+    padding: 0px 10px 0 10px;
+  }
+  footer .footer-wrapper {
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .pets h3 {
+    padding: 0;
+    font-size: 25px;
+    line-height: 2rem;
+  }
+  .pets .pets-slider {
+    padding-top: 40px;
+  }
+  .pets .pets-slider #charly, .pets .pets-slider #timmy, .pets .pets-slider #sophia {
+    display: none;
+  }
+  .pets .pets-slider .pets-slider-btn {
+    gap: 10px;
+  }
+  .pets .pets-slider .pets-cards-item {
+    padding-bottom: 27px;
+  }
+  footer .footer-content {
+    gap: 41px;
+  }
+  footer #footer-wrapper {
+    gap: 41px;
+    justify-content: center;
+  }
+  footer #footer-wrapper .contacts {
+    width: 250px;
+  }
+  footer #footer-wrapper .locations {
+    gap: 39px;
+  }
+  footer #footer-wrapper .locations .locations {
+    width: 294px;
+  }
+  footer .footer-img {
+    width: 260px;
+    height: 269px;
+  }
+  footer .h3-title-footer {
+    font-size: 25px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=media_our_pets.css.map */
