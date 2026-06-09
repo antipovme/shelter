@@ -1,2 +1,2 @@
 # shelter
-rebuild Shelter stage0 
+EPAM RSSchool Shelter stage0 
